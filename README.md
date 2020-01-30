@@ -57,9 +57,9 @@ There are some common environment variables you will want to adjust:
 - To use Postgres, [follow these instructions](https://github.com/MoveOnOrg/Spoke/blob/main/docs/HOWTO_USE_POSTGRESQL.md).
 
 3. Determine which authentication system you want to use. For development, there are a few ways authenticate.
-
-- To use the local strategy for authentication, use `PASSPORT_STRATEGY=local`.
-- To use [Auth0](https://auth0.com) by default, [follow these instructions](https://github.com/MoveOnOrg/Spoke/blob/main/docs/HOWTO-configure-auth0.md).
+option a. To use the local strategy for authentication, use `PASSPORT_STRATEGY=local`.
+OR
+option b. To use [Auth0](https://auth0.com) by default, [follow these instructions](https://github.com/MoveOnOrg/Spoke/blob/main/docs/HOWTO-configure-auth0.md).
 
 ### Getting the app running
 
